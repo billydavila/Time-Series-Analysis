@@ -9,6 +9,8 @@ If our current predicte price increased then we go long otherwise we go short.
 # Financial Data
 We gathered stock data for Bank of America from Jan. 1 , 2010 to Dec. 31, 2020. We fetch the data from yahoo finance by using the yfinance module. The ticker used was BAC which is Bank of America. We also performed a sanity check on the data to see if there was no missing value on the data which is an important feature in time series analysis. Also, there is an excel sheet with the same data in the reporsitory.   
 
-   
+# Analysis Results
+We first tested the model performance by calculating the error metrics and residual analysis. Once we had a good model performance, we developed the trading strategy. For the backtest analysis, we only calculated the Sharpe Ratio, Cumulative return and Drawdowns of the strategy. However, we did a quick backtest 
+on the strategy returns by using the pyfolio module.   
 
 
